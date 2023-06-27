@@ -80,7 +80,7 @@ public class SistemaConsultaHospital {
         int opcao;
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sistemaconsulta", "root", "");
+            connection = DriverManager.getConnection("jdbc:mysql://mysql248.umbler.com:41890/sistemaconsulta", "consulta", "pmpo1516");
 
             do {
                 System.out.println("\nSistema de Consulta Hospitalar Público");
